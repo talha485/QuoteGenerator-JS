@@ -1,0 +1,33 @@
+*{
+margin:0;
+padding:0;
+}
+body{
+background: #b0cbd9;
+background: linear-gradient(90deg, rgba(176, 203, 217, 1) 13%, rgba(87, 91, 199, 1) 100%, rgba(237, 221, 83, 1) 100%);
+}
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+gap: 30px;
+}
+.quote-box{
+background-color: white;
+text-align: center;
+padding: 20px;
+font-size: 20px;
+border-radius: 20px;
+-webkit-box-shadow: 4px 6px 5px 0px #000000;
+box-shadow: 4px 6px 5px 0px #000000;
+}
+.quote-box button{
+padding: 10px 30px;
+margin-top: 10px;
+border-radius: 10px;
+border: none;
+background-color: black;
+color: white;
+
+}
