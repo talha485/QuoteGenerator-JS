@@ -31,3 +31,7 @@ background-color: black;
 color: white;
 
 }
+.quote-box button:hover{
+    transform: scale(0.95);
+    transition: all 0.3s;
+}
